@@ -24,21 +24,23 @@ drawpad.grid(row=0, column=1)
 
 # Insert your code here to draw the house!
 #This is The House shape
-rectangle2 = drawpad.create_rectangle(250,180,520,440)
+rectangle2 = drawpad.create_rectangle(250,180,520,440,fill = 'red')
 
 #windows
-rectangle3 = drawpad.create_rectangle(280,230,350,300)
-rectangle4 = drawpad.create_rectangle(420,230,490,300)
+rectangle3 = drawpad.create_rectangle(280,230,350,300,fill = 'white')
+rectangle4 = drawpad.create_rectangle(420,230,490,300,fill = 'white')
 
 #door
-rectangle5 = drawpad.create_rectangle(360,360,410,440)
+rectangle5 = drawpad.create_rectangle(360,360,410,440,fill = 'brown')
 
 #roof
-line1 = drawpad.create_line(250,180,390,60)
-line1 = drawpad.create_line(520,180,390,60)
+line1 = drawpad.create_line(250,180,390,60,fill = 'dark red')
+line1 = drawpad.create_line(520,180,390,60,fill = 'dark red')
 
 #door knob
-oval1 = drawpad.create_oval(400,400,410,410)
+oval1 = drawpad.create_oval(400,400,410,410,fill = 'yellow')
 
+#grass
+rectangle6 = drawpad.create_rectangle(150,440,630,470,fill = 'dark green')
 
 root.mainloop()
