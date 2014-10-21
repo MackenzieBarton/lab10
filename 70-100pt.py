@@ -36,11 +36,17 @@ rectangle5 = drawpad.create_rectangle(360,360,410,440,fill = 'brown')
 #roof
 line1 = drawpad.create_line(250,180,390,60,fill = 'dark red')
 line1 = drawpad.create_line(520,180,390,60,fill = 'dark red')
+line1 = drawpad.create_line(250,180,390,60,fill = 'dark red')
 
 #door knob
 oval1 = drawpad.create_oval(400,400,410,410,fill = 'yellow')
 
 #grass
 rectangle6 = drawpad.create_rectangle(150,440,630,470,fill = 'dark green')
+
+#chimney
+line1 = drawpad.create_line(300,90,300,140,fill = 'dark red')
+line1 = drawpad.create_line(300,90,250,90,fill = 'dark red')
+line1 = drawpad.create_line(250,90,250,90,fill = 'dark red')
 
 root.mainloop()
