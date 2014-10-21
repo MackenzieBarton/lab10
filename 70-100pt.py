@@ -46,7 +46,7 @@ rectangle6 = drawpad.create_rectangle(150,440,630,470,fill = 'dark green')
 
 #chimney
 line1 = drawpad.create_line(300,90,300,140,fill = 'dark red')
-line1 = drawpad.create_line(300,90,250,90,fill = 'dark red')
-line1 = drawpad.create_line(250,90,250,90,fill = 'dark red')
+line1 = drawpad.create_line(300,90,260,90,fill = 'dark red')
+line1 = drawpad.create_line(260,90,260,170,fill = 'dark red')
 
 root.mainloop()
